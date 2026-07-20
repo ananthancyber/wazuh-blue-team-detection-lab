@@ -70,6 +70,15 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Wazuh Dashboard deployed
 - Successfully logged into Wazuh Dashboard
 
+### Day 3
+
+- Verified Wazuh Manager connectivity
+- Installed and configured the Wazuh Agent
+- Registered the Ubuntu endpoint
+- Verified agent communication
+- Investigated security events using Threat Hunting
+- Learned Wazuh rule IDs and severity levels
+
 ---
 
 ## 📸 Project Screenshots
