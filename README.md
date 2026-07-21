@@ -79,6 +79,15 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Investigated security events using Threat Hunting
 - Learned Wazuh rule IDs and severity levels
 
+### Day 4
+
+- Configured File Integrity Monitoring (FIM)
+- Enabled real-time directory monitoring
+- Detected file creation
+- Detected file modification
+- Detected file deletion
+- Investigated FIM events in Threat Hunting
+
 ---
 
 ## 📸 Project Screenshots
