@@ -88,13 +88,15 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Detected file deletion
 - Investigated FIM events in Threat Hunting
 
-✅ Day 05 Completed
+### Day 5
 
-• Investigated File Integrity Monitoring alerts
-• Analyzed Rule IDs 554, 550, and 553
-• Learned JSON event investigation
-• Compared file creation, modification, and deletion events
-• Understood how Wazuh represents file lifecycle activities
+✅ Investigated Wazuh File Integrity Monitoring (FIM) alerts
+
+- Investigated Rules 554, 550, and 553
+- Analyzed alerts using Table and JSON views
+- Compared file creation, modification, and deletion events
+- Learned how Wazuh identifies file lifecycle activities
+- Understood the role of hashes in integrity monitoring
 
 ---
 
