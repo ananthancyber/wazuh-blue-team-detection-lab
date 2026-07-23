@@ -98,6 +98,24 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Learned how Wazuh identifies file lifecycle activities
 - Understood the role of hashes in integrity monitoring
 
+### Day 6
+
+✅ Learned how the Wazuh detection engine works
+
+- Explored the Wazuh detection pipeline
+- Understood Decoders and Rules
+- Analyzed built-in SSH detection rules
+- Learned rule hierarchy using `if_sid`
+- Explored built-in rule files
+- Created a custom Wazuh detection rule
+- Backed up configuration before modification
+- Resolved Docker file permission issues
+- Validated the custom rule configuration
+- Restarted the Wazuh Manager
+- Triggered a successful SSH login
+- Verified the custom alert (Rule ID 100002) in the Wazuh Dashboard
+- Gained hands-on experience in Wazuh detection engineering
+
 ---
 
 ## 📸 Project Screenshots
