@@ -116,6 +116,44 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Verified the custom alert (Rule ID 100002) in the Wazuh Dashboard
 - Gained hands-on experience in Wazuh detection engineering
 
+## ✅ Day 7 – Detection Engineering & Correlation Rules
+
+### Concepts Learned
+
+- Alert Fatigue
+- False Positives
+- False Negatives
+- Detection Tuning
+- Correlation Rules
+- frequency
+- timeframe
+- if_matched_sid
+
+### Practical Work
+
+- Tuned custom SSH login detection rule
+- Modified alert severity
+- Built threshold-based correlation rule
+- Configured SSH key authentication
+- Generated automated SSH login events
+- Validated custom Wazuh rules
+- Restarted Wazuh Manager
+- Verified detections in Wazuh Dashboard
+
+### Troubleshooting
+
+- Fixed Docker file permission issues
+- Resolved Wazuh rule validation errors
+- Debugged SSH public key authentication
+- Verified correlation rule deployment
+
+### Screenshots
+
+- Rule tuning
+- Correlation rule configuration
+- Wazuh Manager restart
+- Correlation rule successfully triggered
+
 ---
 
 ## 📸 Project Screenshots
