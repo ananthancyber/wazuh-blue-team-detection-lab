@@ -116,7 +116,7 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Verified the custom alert (Rule ID 100002) in the Wazuh Dashboard
 - Gained hands-on experience in Wazuh detection engineering
 
-# Day 7
+### Day 7
 
 ✅ Learned Detection Engineering and Wazuh Correlation Rules
 
