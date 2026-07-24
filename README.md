@@ -134,13 +134,6 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Troubleshot SSH public key authentication
 - Gained hands-on experience with Wazuh Detection Engineering and Rule Correlation
 
-### Screenshots
-
-- Rule tuning
-- Correlation rule configuration
-- Wazuh Manager restart
-- Correlation rule successfully triggered
-
 ---
 
 ## 📸 Project Screenshots
