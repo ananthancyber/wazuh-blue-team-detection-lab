@@ -134,6 +134,21 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Troubleshot SSH public key authentication
 - Gained hands-on experience with Wazuh Detection Engineering and Rule Correlation
 
+
+### Day 8
+
+✅ Learned Wazuh Active Response and Custom Response Automation
+
+- Learned how Wazuh Active Response works
+- Explored built-in Active Response scripts
+- Developed a custom Active Response Bash script
+- Registered a custom Wazuh command
+- Configured a custom Active Response
+- Validated Wazuh configuration successfully
+- Tested the custom script manually
+- Investigated the Active Response execution pipeline
+- Troubleshot event collection and detection workflow
+- Gained practical experience debugging Wazuh automation
 ---
 
 ## 📸 Project Screenshots
@@ -161,19 +176,6 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Security Monitoring
 - Technical Documentation
 - Git Version Control
-
----
-
-## 🚀 Next Steps
-
-- Install Wazuh Agent
-- Register endpoint
-- Generate security events
-- Simulate attacks
-- Threat hunting
-- Alert analysis
-- Create custom detection rules
-
 ---
 
 ## 👤 Author
