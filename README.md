@@ -149,6 +149,23 @@ Project-01-Wazuh-Blue-Team-Lab/
 - Investigated the Active Response execution pipeline
 - Troubleshot event collection and detection workflow
 - Gained practical experience debugging Wazuh automation
+
+### Day 9
+
+✅ Learned Wazuh Active Response and Custom Detection Rules
+
+- Configured Wazuh Agent to monitor a custom log source
+- Created a custom detection rule (Rule ID **100003**)
+- Generated and detected custom security events
+- Validated the Wazuh Manager configuration
+- Restarted the Wazuh Manager to apply changes
+- Verified custom alerts in Wazuh Dashboard and alerts.json
+- Created a custom Active Response script
+- Registered a custom Active Response command
+- Linked Active Response to the custom detection rule
+- Manually tested the custom Active Response script
+- Gained hands-on experience with Detection Engineering and Active Response fundamentals
+
 ---
 
 ## 📸 Project Screenshots
