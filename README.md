@@ -1,7 +1,7 @@
 # 🛡️ Wazuh Blue Team Detection Lab
 
 <p align="center">
-  <img src="architecture/wazuh_blue_team_lab_architecture.png"
+  <img src="architecture/wazuh_blue_team_lab_structure.png"
        alt="Wazuh Blue Team Lab Architecture"
        width="900">
 </p>
@@ -47,7 +47,7 @@ The repository also contains detailed day-by-day documentation, screenshots, and
   - [⚙️ Detection Engineering](#️-detection-engineering)
   - [🛡️ Active Response](#️-active-response)
 - [🛠️ Technology Stack](#️-technology-stack)
-- [📁 Repository Structure](#-repository-structure)
+  - [📂 Repository Structure](#-repository-structure)
 - [🎯 Skills Demonstrated](#-skills-demonstrated)
 - [🛠️ Challenges \& Troubleshooting](#️-challenges--troubleshooting)
 - [📚 References](#-references)
@@ -152,18 +152,21 @@ Security events are collected by the Wazuh Agent, processed by the Wazuh Manager
 | Version Control | Git, GitHub |
 | Documentation | Markdown, VS Code |
 
-# 📁 Repository Structure
+## 📂 Repository Structure
 
 ```text
 Project-01-Wazuh-Blue-Team-Lab/
 │
+├── LICENSE
+├── README.md
+│
 ├── architecture/
-│   ├── wazuh-blue-team-architecture.drawio
-│   └── wazuh-blue-team-architecture.png
+│   ├──     wazuh_blue_team_lab_structure.png
+│   └──   wazuh-blue-team-architecture.png
 │
 ├── attack-simulation/
-│
-├── diagrams/
+│   ├── README.md
+│   └── Screenshots/
 │
 ├── docs/
 │   ├── Day01.md
@@ -177,21 +180,25 @@ Project-01-Wazuh-Blue-Team-Lab/
 │   └── Day09.md
 │
 ├── reports/
+│   ├── README.md
+│   ├── active-response-report.md
+│   ├── correlation-rule-report.md
+│   ├── custom-rule-development-report.md
+│   └── fim-investigation-report.md
 │
 ├── rules/
+│   ├── README.md
+│   ├── local_rules.xml
+│   └── screenshots/
 │
-├── screenshots/
-│   ├── active-response/
-│   ├── dashboard/
-│   ├── detection-rules/
-│   ├── fim/
-│   ├── setup/
-│   ├── threat-hunting/
-│   └── troubleshooting/
-│
-├── scripts/
-│
-└── README.md
+└── screenshots/
+    ├── active-response/
+    ├── Custom-rules/
+    ├── dashboard/
+    ├── fim/
+    ├── setup/
+    ├── threat-hunting/
+    └── troubleshooting/
 ```
 # 🎯 Skills Demonstrated
 
