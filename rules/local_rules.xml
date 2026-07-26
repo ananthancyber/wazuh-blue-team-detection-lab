@@ -1,0 +1,25 @@
+<group name="local,syslog,sshd,">
+
+  <!-- Rule 100001: Detect failed SSH authentication from a specific IP -->
+  <rule id="100001" level="5">
+    <if_sid>5716</if_sid>
+    <srcip>1.1.1.1</srcip>
+    <description>sshd: authentication failed from IP 1.1.1.1.</description>
+    <group>authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+  </rule>
+
+  <!-- Rule 100002: Detect multiple successful SSH logins -->
+  <rule id="100002" level="3" frequency="5" timeframe="60">
+    <if_matched_sid>5715</if_matched_sid>
+    <description>Multiple successful SSH logins detected (5 within 60 seconds).</description>
+    <group>local,authentication_success,</group>
+  </rule>
+
+  <!-- Rule 100003: Detect custom demo security event -->
+  <rule id="100003" level="7">
+    <match>DEMO-SECURITY</match>
+    <description>Custom demo security event detected.</description>
+    <group>local,demo,</group>
+  </rule>
+
+</group>
