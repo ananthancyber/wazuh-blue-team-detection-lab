@@ -1,5 +1,11 @@
 # 🛡️ Wazuh Blue Team Detection Lab
 
+<p align="center">
+  <img src="diagrams/wazuh_blue_team_lab_architecture.png"
+       alt="Wazuh Blue Team Lab Architecture"
+       width="900">
+</p>
+
 > A production-style Wazuh SIEM/XDR home lab built using Ubuntu and Docker to gain hands-on experience in security monitoring, threat detection, detection engineering, File Integrity Monitoring (FIM), Active Response, and incident investigation.
 
 ![Platform](https://img.shields.io/badge/Platform-Ubuntu%2026.04-E95420?logo=ubuntu&logoColor=white)
