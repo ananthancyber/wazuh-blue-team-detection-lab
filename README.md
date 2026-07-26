@@ -1,7 +1,7 @@
 # 🛡️ Wazuh Blue Team Detection Lab
 
 <p align="center">
-  <img src="diagrams/wazuh_blue_team_lab_architecture.png"
+  <img src="architecture/wazuh_blue_team_lab_architecture.png"
        alt="Wazuh Blue Team Lab Architecture"
        width="900">
 </p>
