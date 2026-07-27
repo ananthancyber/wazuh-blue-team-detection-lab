@@ -46,13 +46,14 @@ The repository also contains detailed day-by-day documentation, screenshots, and
   - [🔍 Threat Hunting](#-threat-hunting)
   - [⚙️ Detection Engineering](#️-detection-engineering)
   - [🛡️ Active Response](#️-active-response)
+- [MITRE ATT\&CK Coverage](#mitre-attck-coverage)
+  - [Why MITRE ATT\&CK Matters](#why-mitre-attck-matters)
 - [🛠️ Technology Stack](#️-technology-stack)
   - [📂 Repository Structure](#-repository-structure)
 - [🎯 Skills Demonstrated](#-skills-demonstrated)
 - [🛠️ Challenges \& Troubleshooting](#️-challenges--troubleshooting)
 - [📚 References](#-references)
 - [👨‍💻 Author](#-author)
-
 ---
 
 ## 🎯 Project Objectives
@@ -137,7 +138,33 @@ Security events are collected by the Wazuh Agent, processed by the Wazuh Manager
 - Investigated the Active Response workflow and debugging process.
 
 ---
+---
 
+# MITRE ATT&CK Coverage
+
+This project demonstrates how Wazuh detections can be aligned with the MITRE ATT&CK® framework to provide additional context during security investigations.
+
+Rather than mapping every alert to an ATT&CK technique, this project only includes mappings where there is a clear relationship between the observed activity and the MITRE ATT&CK knowledge base.
+
+| Detection Scenario | Implementation | MITRE ATT&CK | Tactic | Status |
+|--------------------|---------------|--------------|--------|--------|
+| SSH Authentication Failure Detection | Wazuh built-in SSH authentication rules | **T1110 – Brute Force** | **Credential Access (TA0006)** | ✅ Implemented |
+| File Integrity Monitoring (FIM) | Wazuh Syscheck | Monitors file modifications that may indicate multiple ATT&CK techniques depending on the attack scenario | Multiple | ✅ Implemented |
+| Custom Detection Rule (`100003`) | Custom Wazuh Rule | Educational demonstration rule (no direct ATT&CK mapping) | N/A | ✅ Implemented |
+| Active Response | Wazuh Active Response | Defensive response mechanism (not an ATT&CK technique) | N/A | ✅ Configured & Manually Validated |
+
+## Why MITRE ATT&CK Matters
+
+The MITRE ATT&CK framework helps SOC analysts understand attacker behavior by classifying adversary tactics and techniques observed during an investigation.
+
+Using MITRE ATT&CK with Wazuh enables analysts to:
+
+- Correlate security alerts with known attacker behaviors.
+- Improve detection engineering using a standardized framework.
+- Prioritize investigations based on attacker tactics.
+- Identify detection coverage gaps for future improvements.
+
+> **Note:** This project focuses on building a foundational Blue Team home lab. Future projects in this portfolio will expand MITRE ATT&CK coverage through additional attack simulations, AI-assisted alert triage, and network-based detections.
 # 🛠️ Technology Stack
 
 | Category | Technology |
